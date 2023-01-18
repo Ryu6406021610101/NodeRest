@@ -1,0 +1,23 @@
+{
+  "name": "noderest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryu6406021610101/NodeRest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryu6406021610101/NodeRest/issues"
+  },
+  "homepage": "https://github.com/Ryu6406021610101/NodeRest#readme",
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  }
+}
