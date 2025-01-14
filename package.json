@@ -1,23 +1,20 @@
 {
   "name": "noderest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repository for Back-End Develop",
   "main": "index.js",
-  "scripts": {
-    "format": "prettier --write *.js"
+  "devDependencies": {
+    "prettier": "^3.4.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ryu6406021610101/NodeRest.git"
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write *.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ryu6406021610101/NodeRest/issues"
-  },
-  "homepage": "https://github.com/Ryu6406021610101/NodeRest#readme",
-  "devDependencies": {
-    "prettier": "^2.8.3"
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
   }
 }
